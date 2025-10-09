@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 public class CourseModel
 {
   [Key]
-  public int Id;
+  public int Id { get; set; }
 
   [Required]
   public string CourseCode { get; set; }
@@ -14,8 +14,8 @@ public class CourseModel
 
   public int LabCreditHours { get; set; }
 
-  public ICLO[] CLO { get; set; }
-  public bool IsActive { get; set; }
+  public List<CLOModel> CLO { get; set; } = new List<CLOModel>();
+  public bool IsActive { get; set; } = true;
 
   public DateTime CreatedAt = DateTime.Now;
 }

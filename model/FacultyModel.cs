@@ -1,25 +1,16 @@
 using System.ComponentModel.DataAnnotations;
 
-public class FacultyModel
+public class FacultyModel : User
 {
-  [Key]
-  public int Id;
+  [Required]
+  [MaxLength(20)]
+  public string EmployeeId { get; set; }
 
   [Required]
-  public string Name { get; set; } = null;
+  [MaxLength(100)]
+  public string Department { get; set; }
 
-  [Required]
-  public string Gender { get; set; }
-  [Required]
-  public int Age { get; set; }
-
-  [Required]
-  public string Address { get; set; }
-
-  [Required]
-  public IContactType Contact { get; set; }
-
-  [Required]
-  public EducationLevel EducationLevel { get; set; }
+  [MaxLength(100)]
+  public string Designation { get; set; }
 
 }
