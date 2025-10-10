@@ -13,8 +13,10 @@ public class CourseModel
 
   public int LabCreditHours { get; set; }
 
-  public List<CLOModel> CLO { get; set; } = new List<CLOModel>();
+  public IList<CLOModel> CLO { get; set; }
   public bool IsActive { get; set; } = true;
+
+  public IList<XrefFacultyCourses>XrefFacultyCourses  { get; set; }
 
   public DateTime CreatedAt = DateTime.Now;
 }

@@ -9,4 +9,7 @@ public class FacultyModel : User
 
   public string Designation { get; set; }
 
+   public IList<XrefFacultyCourses>XrefFacultyCourses  { get; set; }
+
+
 }
