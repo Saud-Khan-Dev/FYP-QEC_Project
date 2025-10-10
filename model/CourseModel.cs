@@ -2,7 +2,6 @@ using System.ComponentModel.DataAnnotations;
 
 public class CourseModel
 {
-  [Key]
   public int Id { get; set; }
 
   [Required]
