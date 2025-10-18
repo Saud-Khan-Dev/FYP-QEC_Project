@@ -12,12 +12,12 @@ public class CourseModel
   public int TheoreyCreditHours { get; set; }
 
   public int LabCreditHours { get; set; }
-
-  public IList<CLOModel> CLO { get; set; }
   public bool IsActive { get; set; } = true;
 
-  public IList<XrefFacultyCourses>XrefFacultyCourses  { get; set; }
-
+  public int SyllabusId { get; set; }
+  public SyllabusModel SyllabusModel { get; set; }
+  public IList<CLOModel> CLO { get; set; }
+  public IList<XrefFacultyCourses> XrefFacultyCourses { get; set; }
   public DateTime CreatedAt = DateTime.Now;
 }
 

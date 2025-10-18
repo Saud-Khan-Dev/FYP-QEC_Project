@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/home/saudkhan/Coding_Env/FYP/QEC_Project/QEC_Project.csproj": {}
+    "/home/saud/MyData/Coding_Env/FYP/QEC_Project/QEC_Project.csproj": {}
   },
   "projects": {
-    "/home/saudkhan/Coding_Env/FYP/QEC_Project/QEC_Project.csproj": {
+    "/home/saud/MyData/Coding_Env/FYP/QEC_Project/QEC_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/saudkhan/Coding_Env/FYP/QEC_Project/QEC_Project.csproj",
+        "projectUniqueName": "/home/saud/MyData/Coding_Env/FYP/QEC_Project/QEC_Project.csproj",
         "projectName": "QEC_Project",
-        "projectPath": "/home/saudkhan/Coding_Env/FYP/QEC_Project/QEC_Project.csproj",
-        "packagesPath": "/home/saudkhan/.nuget/packages/",
-        "outputPath": "/home/saudkhan/Coding_Env/FYP/QEC_Project/obj/",
+        "projectPath": "/home/saud/MyData/Coding_Env/FYP/QEC_Project/QEC_Project.csproj",
+        "packagesPath": "/home/saud/.nuget/packages/",
+        "outputPath": "/home/saud/MyData/Coding_Env/FYP/QEC_Project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/saudkhan/.nuget/NuGet/NuGet.Config"
+          "/home/saud/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,13 +46,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             }
           },
           "imports": [
@@ -67,6 +66,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.9, 9.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -75,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
