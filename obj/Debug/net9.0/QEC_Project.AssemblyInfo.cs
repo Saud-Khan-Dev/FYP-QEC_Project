@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QEC_Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+669792f2ca32ffc8788a44f8f5aa93c49de72944")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+806cca8ed6f01104bc7d2720d86c28cc52036eda")]
 [assembly: System.Reflection.AssemblyProductAttribute("QEC_Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QEC_Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
